@@ -76,7 +76,7 @@ def scaping(username, password, number, subreddit):
             post_body = post_title
         posttext = f"{post_title} \n {post_body}"
 
-        api_key = "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"
+        api_key = "sk-"
 
         # Initialize the OpenAI API client
         openai.api_key = api_key
